@@ -1,6 +1,4 @@
-<html>
-<title>Greetings,</title>
 <body style="background-color: black; color:green;">
   <p><a href="https://lodewijk5150.github.io/F-5_Warning.html">F-5 Tornado Warning!!</a></p>
+  <p><a href="https://lodewijk5150.github.io/Eddies_Back_From_The_Dead.html">Eddie's Back From The Dead!!</a></p>
 </body>
-</html>
