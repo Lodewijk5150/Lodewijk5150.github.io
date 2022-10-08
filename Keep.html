@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago's Keep</title>
+    <link rel="stylesheet" href="Keep.css">
+</head>
+<body class="Keep_Full_Screen">
+    <div class="Headbar">
+        <div>
+            <h1>Tiago's Keep</h1>
+        </div>
+        <div class="search_bar">
+            <img src="search.svg" alt="search" class="button_color button_search">
+            <input type="text" id="search" class="search">
+        </div>
+        <h1 id="page_indicator">Notes</h1>
+        <img src="settings.svg" alt="settings" class="button settings">
+    </div>
+    <div class="Main">
+        <div class="LeftBar">
+            <div class="LeftBar_row Selected_page" id="Notes_Page" onclick="switch_page(true)">
+                <div class="menu_item button">
+                    <img src="pencil.svg" alt="notes">
+                </div>
+                <div>
+                    <span>Notes</span>
+                </div>
+            </div>
+            <div class="LeftBar_row" id="Trash_Page" onclick="switch_page(false)">
+                <div class="menu_item button">
+                    <img src="trash.svg" alt="trash">
+                </div>
+                <div>
+                    <span>Trash</span>
+                </div>
+                </div>
+        </div>
+        <div class="RightBar" id = "section">
+            <div id = "letter_card" class="letter_card"><span>title</span><p>Type Here</p></div>
+        </div>
+        <img src="circle-plus.svg" alt="plus" class="plus button" id="plus_button"> 
+    </div>
+    <script src="Keep.js"></script>
+</body>
+</html>
